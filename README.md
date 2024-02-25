@@ -1,7 +1,7 @@
 ## Инструкция по запуску
 
 1) `docker build -t ijscreener .`
-2) `docker run --name j_screener \
+2) `docker run --name jhub_container \
            --privileged \
            -d \
            -p 8000:8000 \
