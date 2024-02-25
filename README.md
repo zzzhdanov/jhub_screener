@@ -1,12 +1,7 @@
 ## Инструкция по запуску
 
 1) `docker build -t ijscreener .`
-2) `docker run --name jhub_container \
-           --privileged \
-           -d \
-           -p 8000:8000 \
-           -v auth_data:/home \
-           ijscreener`
+2) `docker run --name jhub_container --privileged -d  -p 8000:8000  -v auth_data:/home ijscreener`
 
 ### Администрирование
 Первая регистрация всегда за администратором!
