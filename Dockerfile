@@ -2,9 +2,8 @@ FROM jupyterhub/jupyterhub
 
 COPY . /jhub_screener/
 
-RUN printf '#!/bin/sh\nexit 0' > /usr/sbin/policy-rc.d
 
-RUN apt update && apt-get -y install npm nodejs python3 python3-pip git nano && apt install cron
+RUN apt-get update && apt-get -y install npm nodejs python3 python3-pip git nano cron
 
 RUN python3 -m pip install -r /jhub_screener/requirements.txt
 
@@ -19,6 +18,9 @@ WORKDIR /etc/jupyterhub
 RUN jupyterhub --generate-config -f jupyterhub_config.py &&\
                  cp /jhub_screener/jupyterhub_config.py jupyterhub_config.py
 
-RUN echo "* * * * * cd /jhub_screener/scripts && python3 cronscript.py" | crontab -
+RUN cp /jhub_screener/scripts/cronfile /etc/cron.d/cronfile &&\
+                  chmod 0644 /etc/cron.d/cronfile &&  crontab /etc/cron.d/cronfile
 
-RUN jupyterhub -f /etc/jupyterhub/jupyterhub_config.py
+RUN chmod 755 /jhub_screener/start.sh
+
+CMD ["/jhub_screener/start.sh"]
