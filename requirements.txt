@@ -1,10 +1,132 @@
-jupyterhub
-notebook 
-jupyterlab
-requests
-pandas
-trino
-matplotlib
-seaborn
-clickhouse-connect
-scikit-learn
+alembic @ file:///tmp/wheelhouse/alembic-1.11.2-py3-none-any.whl#sha256=7981ab0c4fad4fe1be0cf183aae17689fe394ff874fd2464adb774396faf0796
+anyio==4.3.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+async-generator @ file:///tmp/wheelhouse/async_generator-1.10-py3-none-any.whl#sha256=01c7bf666359b4967d2cda0000cc2e4af16a0ae098cbffcb8472fb9e8ad6585b
+async-lru==2.0.4
+attrs @ file:///tmp/wheelhouse/attrs-23.1.0-py3-none-any.whl#sha256=1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04
+Babel==2.14.0
+bcrypt==4.1.2
+beautifulsoup4==4.12.3
+bleach==6.1.0
+certifi @ file:///tmp/wheelhouse/certifi-2023.7.22-py3-none-any.whl#sha256=92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9
+certipy @ file:///tmp/wheelhouse/certipy-0.1.3-py3-none-any.whl#sha256=f272c13bfa9af6b2f3f746329d08adb66af7dd0bbb08fc81175597f25a7284b5
+cffi @ file:///tmp/wheelhouse/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=dd86c085fae2efd48ac91dd7ccffcfc0571387fe1193d33b6394db7ef31fe2a4
+charset-normalizer @ file:///tmp/wheelhouse/charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=193cbc708ea3aca45e7221ae58f0fd63f933753a9bfb498a3b474878f12caaad
+clickhouse-connect==0.7.0
+comm==0.2.1
+contourpy==1.2.0
+cryptography @ file:///tmp/wheelhouse/cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl#sha256=42cb413e01a5d36da9929baa9d70ca90d90b969269e5a12d39c1e0d475010116
+cycler==0.12.1
+debugpy==1.8.1
+decorator==5.1.1
+defusedxml==0.7.1
+exceptiongroup==1.2.0
+executing==2.0.1
+fastjsonschema==2.19.1
+fonttools==4.49.0
+fqdn==1.5.1
+greenlet @ file:///tmp/wheelhouse/greenlet-2.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=d75209eed723105f9596807495d58d10b3470fa6732dd6756595e89925ce2470
+gyp==0.1
+h11==0.14.0
+httpcore==1.0.4
+httpx==0.27.0
+idna @ file:///tmp/wheelhouse/idna-3.4-py3-none-any.whl#sha256=90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
+ipykernel==6.29.2
+ipython==8.22.1
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2 @ file:///tmp/wheelhouse/Jinja2-3.1.2-py3-none-any.whl#sha256=6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
+joblib==1.3.2
+json5==0.9.17
+jsonpointer==2.4
+jsonschema @ file:///tmp/wheelhouse/jsonschema-4.19.0-py3-none-any.whl#sha256=043dc26a3845ff09d20e4420d6012a9c91c9aa8999fa184e7efcfeccb41e32cb
+jsonschema-specifications @ file:///tmp/wheelhouse/jsonschema_specifications-2023.7.1-py3-none-any.whl#sha256=05adf340b659828a004220a9613be00fa3f223f2b82002e273dee62fd50524b1
+jupyter-events==0.9.0
+jupyter-lsp==2.2.2
+jupyter-telemetry @ file:///tmp/wheelhouse/jupyter_telemetry-0.1.0-py3-none-any.whl#sha256=1de3e423b23aa40ca4a4238d65c56dda544061ff5aedc3f7647220ed7e3b9589
+jupyter_client==8.6.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_terminals==0.5.2
+jupyterhub @ file:///tmp/wheelhouse/jupyterhub-4.0.2-py3-none-any.whl#sha256=6ee953b6bdb15b911f4013a76e149ef02dc8103a849401e22a0f1ab69f62b5be
+-e git+https://github.com/jupyterhub/nativeauthenticator.git@343e27c4fb4e11b3d43a8c586a059ceeea3895f3#egg=jupyterhub_nativeauthenticator
+jupyterlab==4.1.2
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.3
+kiwisolver==1.4.5
+lz4==4.3.3
+Mako @ file:///tmp/wheelhouse/Mako-1.2.4-py3-none-any.whl#sha256=c97c79c018b9165ac9922ae4f32da095ffd3c4e6872b45eded42926deea46818
+MarkupSafe @ file:///tmp/wheelhouse/MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=65c1a9bcdadc6c28eecee2c119465aebff8f7a584dd719facdd9e825ec61ab52
+matplotlib==3.8.3
+matplotlib-inline==0.1.6
+mistune==3.0.2
+nbclient==0.9.0
+nbconvert==7.16.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+notebook==7.1.0
+notebook_shim==0.2.4
+numpy==1.26.4
+oauthlib @ file:///tmp/wheelhouse/oauthlib-3.2.2-py3-none-any.whl#sha256=8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca
+onetimepass==1.0.1
+overrides==7.7.0
+packaging @ file:///tmp/wheelhouse/packaging-23.1-py3-none-any.whl#sha256=994793af429502c4ea2ebf6bf664629d07c1a9fe974af92966e4b8d2df7edc61
+pamela @ file:///tmp/wheelhouse/pamela-1.1.0-py2.py3-none-any.whl#sha256=f4534bba9645665b01adfce0134772b0147faea72c278f67a1a732e7ebd46ec6
+pandas==2.2.1
+pandocfilters==1.5.1
+parso==0.8.3
+pexpect==4.9.0
+pillow==10.2.0
+platformdirs==4.2.0
+prometheus-client @ file:///tmp/wheelhouse/prometheus_client-0.17.1-py3-none-any.whl#sha256=e537f37160f6807b8202a6fc4764cdd19bac5480ddd3e0d463c3002b34462101
+prompt-toolkit==3.0.43
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycparser @ file:///tmp/wheelhouse/pycparser-2.21-py2.py3-none-any.whl#sha256=8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
+pycurl==7.44.1
+Pygments==2.17.2
+pyOpenSSL @ file:///tmp/wheelhouse/pyOpenSSL-23.2.0-py3-none-any.whl#sha256=24f0dc5227396b3e831f4c7f602b950a5e9833d292c8e4a2e06b709292806ae2
+pyparsing==3.1.1
+python-dateutil @ file:///tmp/wheelhouse/python_dateutil-2.8.2-py2.py3-none-any.whl#sha256=961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
+python-json-logger @ file:///tmp/wheelhouse/python_json_logger-2.0.7-py3-none-any.whl#sha256=f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd
+pytz==2024.1
+PyYAML==6.0.1
+pyzmq==25.1.2
+referencing @ file:///tmp/wheelhouse/referencing-0.30.2-py3-none-any.whl#sha256=449b6669b6121a9e96a7f9e410b245d471e8d48964c67113ce9afe50c8dd7bdf
+requests @ file:///tmp/wheelhouse/requests-2.31.0-py3-none-any.whl#sha256=58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rpds-py @ file:///tmp/wheelhouse/rpds_py-0.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=a987578ac5214f18b99d1f2a3851cba5b09f4a689818a106c23dbad0dfeb760f
+ruamel.yaml @ file:///tmp/wheelhouse/ruamel.yaml-0.17.32-py3-none-any.whl#sha256=23cd2ed620231677564646b0c6a89d138b6822a0d78656df7abda5879ec4f447
+ruamel.yaml.clib @ file:///tmp/wheelhouse/ruamel.yaml.clib-0.2.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl#sha256=efa08d63ef03d079dcae1dfe334f6c8847ba8b645d08df286358b1f5293d24ab
+scikit-learn==1.4.1.post1
+scipy==1.12.0
+seaborn==0.13.2
+Send2Trash==1.8.2
+six @ file:///tmp/wheelhouse/six-1.16.0-py2.py3-none-any.whl#sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
+sniffio==1.3.0
+soupsieve==2.5
+SQLAlchemy @ file:///tmp/wheelhouse/SQLAlchemy-2.0.19-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=cb4e688f6784427e5f9479d1a13617f573de8f7d4aa713ba82813bcd16e259d1
+stack-data==0.6.3
+terminado==0.18.0
+threadpoolctl==3.3.0
+tinycss2==1.2.1
+tomli==2.0.1
+tornado @ file:///tmp/wheelhouse/tornado-6.3.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=5b17b1cf5f8354efa3d37c6e28fdfd9c1c1e5122f2cb56dac121ac61baa47cbe
+traitlets==5.14.1
+trino==0.328.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions @ file:///tmp/wheelhouse/typing_extensions-4.7.1-py3-none-any.whl#sha256=440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36
+tzdata==2024.1
+tzlocal==5.2
+uri-template==1.3.0
+urllib3 @ file:///tmp/wheelhouse/urllib3-2.0.4-py3-none-any.whl#sha256=de7df1803967d2c2a98e4b11bb7d6bd9210474c46e8a0401514e3a42a75ebde4
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.7.0
+zstandard==0.22.0
