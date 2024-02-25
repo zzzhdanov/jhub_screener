@@ -2,3 +2,9 @@ jupyterhub
 notebook 
 jupyterlab
 requests
+pandas
+trino
+matplotlib
+seaborn
+clickhouse-connect
+scikit-learn
